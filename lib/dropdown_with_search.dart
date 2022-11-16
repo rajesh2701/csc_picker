@@ -310,6 +310,7 @@ class CustomDialog extends StatelessWidget {
     return Theme.of(context).dialogBackgroundColor;
   }
 
+  // ignore: todo
   // TODO(johnsonmh): Update default dialog border radius to 4.0 to match material spec.
   static const RoundedRectangleBorder _defaultDialogShape =
       RoundedRectangleBorder(
